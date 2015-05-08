@@ -3,8 +3,8 @@ sex = gets.chomp
 
   if sex == "male"
     puts "Hello, Sir!"
-  end
-  
-  if sex == "female"
+  elsif sex == "female"
     puts "Hello, Ma'am!"
+  else
+    puts "Hi There!"
   end
