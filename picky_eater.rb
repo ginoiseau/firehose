@@ -1,5 +1,5 @@
 def kid_eat(food)
-  vegetables = ["Lettuce", "Brocolli", "Carrot", "Onion"]
+  vegetables = ["Lettuce", "Brocolli", "Carrot", "Onion" "Tomato"]
   fruits = ["Apple", "Orange", "Mango", "Pineapple"]
   if vegetables.include?(food)
     4.times do
